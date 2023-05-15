@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Clock from './components/Clock';
 
-class App extends Component {
+export default class App extends React.Component {
 
   state = {
     secondRatio: 0,
@@ -40,5 +40,3 @@ class App extends Component {
   }
 
 }
-
-export default App;
