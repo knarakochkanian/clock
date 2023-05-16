@@ -1,5 +1,6 @@
 import React from 'react'
 import './Clock.css'
+
 function Clock({hourRatio, minuteRatio, secondRatio}) {
 
     return (
@@ -25,11 +26,8 @@ function Clock({hourRatio, minuteRatio, secondRatio}) {
             </div>
         </>
 
-
-
     )
 
 }
-
 
 export default Clock
